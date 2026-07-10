@@ -1,25 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
     padding: 8px 0;
-   
+
     align-items: center;
 }
- nav ul {
+
+nav ul {
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    list-style: none; 
+    list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.common-btn{
+
+.common-btn {
     margin-top: 40px;
     padding: 10px 35px;
     border: none;
@@ -32,19 +35,20 @@ a{
 
 }
 
-button:hover
-{
+button:hover {
     color: aquamarine;
 }
-li a{
+
+li a {
     color: #575757;
 }
+
 /* navigation section end  */
 /* hero section start  */
 /* Header */
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url("./assets/banner.jpg");
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./assets/banner.jpg");
 
     background-size: cover;
     background-position: center;
@@ -58,58 +62,60 @@ header{
 }
 
 /* Content */
-.hero-content{
+.hero-content {
     text-align: center;
     color: white;
     max-width: 800px;
     padding: 20px;
 }
 
-.hero-content h2{
+.hero-content h2 {
     font-size: 70px;
     margin-bottom: 20px;
     font-weight: 700;
 }
 
-.hero-content p{
+.hero-content p {
     font-size: 22px;
     line-height: 1.6;
     margin-bottom: 35px;
     padding-bottom: 200px;
 }
+
 /* meet section start  */
-.section-title{
+.section-title {
     text-align: center;
     margin-bottom: 50px;
     padding-top: 50PX;
     font-size: 40px;
-   
+
 }
 
 
-.person-container{
+.person-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     padding: 50px;
 }
 
-.person-card{
+.person-card {
     border: 1px solid #ddd;
     border-radius: 10px;
-  
-   
+
+
 }
 
-.person-card img{
+.person-card img {
     width: 100%;
     display: block;
 
 }
 
-.person-info{
+.person-info {
     padding: 20px;
 }
+
 /* meet section end  */
 
 /* price card start  */
@@ -117,75 +123,77 @@ header{
     text-align: center;
     justify-content: center;
 }
+
 .price-card p {
     text-align: center;
     justify-content: center;
 }
-.price-card{
+
+.price-card {
     padding: 80px 0;
     text-align: center;
 }
 
-.section-title{
+.section-title {
     font-size: 42px;
     margin-bottom: 10px;
 }
 
-.section-subtitle{
+.section-subtitle {
     color: gray;
     margin-bottom: 40px;
 }
 
-.price-container{
+.price-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
-.work-section{
+.work-section {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 25px;
     text-align: left;
 }
 
-.work-section h3{
+.work-section h3 {
     font-size: 36px;
     margin: 10px 0;
 }
 
-.work-section ul{
+.work-section ul {
     margin: 20px 0;
     padding-left: 20px;
 }
 
-.work-section li{
+.work-section li {
     margin-bottom: 10px;
 }
 
 
 
-.active{
+.active {
     background: #0f172a;
     color: white;
 }
 
-.price-card{
+.price-card {
     padding: 80px 0;
     text-align: center;
 }
 
-.section-title{
+.section-title {
     font-size: 42px;
     margin-bottom: 10px;
 }
 
-.section-subtitle{
+.section-subtitle {
     color: gray;
     margin-bottom: 40px;
 }
 
-.price-container{
+.price-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -195,102 +203,104 @@ header{
     padding-right: 220px;
 }
 
-.work-section{
+.work-section {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 25px;
     text-align: left;
 }
 
-.work-section h3{
+.work-section h3 {
     font-size: 36px;
     margin: 10px 0;
 }
 
-.work-section ul{
+.work-section ul {
     margin: 20px 0;
     padding-left: 20px;
 }
 
-.work-section li{
+.work-section li {
     margin-bottom: 10px;
 }
 
-.work-section .common-btn{
+.work-section .common-btn {
     width: 100%;
-    
+
 }
 
 
-.active .common-btn{
+.active .common-btn {
     background: blue;
     color: white;
 }
-.commonbtn{
+
+.commonbtn {
     background-color: white;
     border-radius: 10px;
     width: 100%;
     color: #1D4ED8;
     font-size: 20px;
-   
+
 
 }
+
 /* price card section end  */
 /* why attend this devconf start */
-.why-attend{
+.why-attend {
     padding: 90px 8%;
     text-align: center;
     background: #ffffff;
 }
 
-.section-title{
+.section-title {
     font-size: 42px;
     margin-bottom: 15px;
 }
 
-.section-description{
+.section-description {
     color: #666;
     max-width: 700px;
     margin: 0 auto 60px;
     line-height: 1.7;
 }
 
-.feature-container{
+.feature-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-.feature-card{
+.feature-card {
     background: white;
     border-radius: 15px;
     padding: 35px 25px;
-    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
     transition: .3s;
 }
 
-.feature-card:hover{
+.feature-card:hover {
     transform: translateY(-8px);
 }
 
-.icon{
+.icon {
     font-size: 45px;
     margin-bottom: 20px;
 }
 
-.feature-card h3{
+.feature-card h3 {
     margin-bottom: 15px;
     color: #111827;
 }
 
-.feature-card p{
+.feature-card p {
     color: #666;
     line-height: 1.7;
 }
 
 
 
-.btn{
+.btn {
     background-color: #2563eb;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -298,5 +308,33 @@ header{
     border-radius: 10px;
     color: #FFFFFF;
     width: 30%;
-     font-weight: bold;
+    font-weight: bold;
+}
+
+/* fotter section :start  */
+footer div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    height: 50px;
+    padding-top: 20px;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+
+.style {
+    display: flex;
+    gap: 20px;
+
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+}
+.massage{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    
 }
