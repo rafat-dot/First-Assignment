@@ -36,7 +36,7 @@ a {
 }
 
 button:hover {
-    color: aquamarine;
+    color: rgb(177, 103, 42);
 }
 
 li a {
@@ -134,10 +134,6 @@ header {
     text-align: center;
 }
 
-.section-title {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
 
 .section-subtitle {
     color: gray;
@@ -178,15 +174,7 @@ header {
     color: white;
 }
 
-.price-card {
-    padding: 80px 0;
-    text-align: center;
-}
 
-.section-title {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
 
 .section-subtitle {
     color: gray;
@@ -197,10 +185,13 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin-left: 60px;
+    /* margin-left: 60px;
     margin-right: 220px;
     padding-left: 60px;
-    padding-right: 220px;
+    padding-right: 220px; */
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
 .work-section {
@@ -238,7 +229,7 @@ header {
 .commonbtn {
     background-color: white;
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
     color: #1D4ED8;
     font-size: 20px;
 
@@ -332,9 +323,10 @@ footer div {
     list-style: none;
     margin-left: 20px;
 }
-.massage{
+
+.massage {
     display: flex;
     gap: 20px;
     text-align: center;
-    
+
 }
