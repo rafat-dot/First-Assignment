@@ -303,7 +303,7 @@ header {
 }
 
 /* fotter section :start  */
-.footer-container > div {
+.footer-container > div:not(.footer-top) {
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -331,10 +331,9 @@ header {
 
 }
 .footer-top{
-    display: flex;
-    justify-content: center;
+  
     align-items: center;
-    color: black;
+    color: white;
     background-color: #0D1B2A;
     padding: 20px;
 
