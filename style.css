@@ -303,12 +303,12 @@ header {
 }
 
 /* fotter section :start  */
-footer div {
+.footer-container > div {
     display: flex;
     justify-content: space-between;
-    background-color: #0D1B2A;
-    color: #FFFFFF;
-    height: 50px;
+    background-color: white;
+    color: balck;
+    
     padding-top: 20px;
     align-items: center;
     padding: 20px 40px;
@@ -329,4 +329,28 @@ footer div {
     gap: 20px;
     text-align: center;
 
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #0D1B2A;
+    padding: 20px;
+
+}
+.footer-container hr{
+margin: 30px 0;
+border: 0;
+border-top: 1px solid #555;
+}
+.footer-container{
+    background-color: #0D1B2A;
+}
+.footer-container img{
+width: 120px;
+}
+.style a{
+    color: black;
+    text-decoration: none;
 }
