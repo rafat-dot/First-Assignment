@@ -20,13 +20,18 @@ a{
     text-decoration: none;
 }
 .common-btn{
-    background-color: #1D4ED8;
-    border-radius: 10px;
-    color: #FFFFFF;
-    height: 35px;
-    width: 100px;
+    margin-top: 40px;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 18px;
     cursor: pointer;
-} 
+
+
+}
+
 button:hover
 {
     color: aquamarine;
@@ -227,6 +232,71 @@ header{
     width: 100%;
     color: #1D4ED8;
     font-size: 20px;
+   
 
 }
 /* price card section end  */
+/* why attend this devconf start */
+.why-attend{
+    padding: 90px 8%;
+    text-align: center;
+    background: #ffffff;
+}
+
+.section-title{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.section-description{
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    line-height: 1.7;
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.feature-card{
+    background: white;
+    border-radius: 15px;
+    padding: 35px 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.feature-card:hover{
+    transform: translateY(-8px);
+}
+
+.icon{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3{
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.feature-card p{
+    color: #666;
+    line-height: 1.7;
+}
+
+
+
+.btn{
+    background-color: #2563eb;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 30%;
+     font-weight: bold;
+}
